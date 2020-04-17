@@ -8,7 +8,7 @@
     "linter": "tslint -c tslint.json src/**/*.ts src/**/*.tsx",
     "build": "npm run clean && tsc",
     "prepare": "npm run build",
-    "clean": "rimraf build"
+    "clean": "rimraf dist"
   },
   "keywords": [],
   "author": "Frederic Vogels",
